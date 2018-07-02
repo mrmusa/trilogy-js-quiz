@@ -1,0 +1,34 @@
+[
+  {
+    "question": "What's the difference between <code>const</code> and <code>let</code>?",
+    "type": "MultipleChoice",
+    "options": [
+      {
+        "key": "A",
+        "text": "A const can only be assigned once",
+        "value": "A const can only be assigned once"
+      },
+      {
+        "key": "B",
+        "text": "A let can only be assigned once",
+        "value": "A let can only be assigned once"
+      },
+      {
+        "key": "C",
+        "text": "A const is always globally scoped",
+        "value": "A const is always globally scoped"
+      }
+    ],
+    "answer": "A const can only be assigned once"
+  },
+  {
+    "question": "What is the ES6 variable type that cannot have its value reassigned?",
+    "type": "TextInput",
+    "answer": "const"
+  },
+  {
+    "question": "<code>const myArr = [1, 2, 3]</code> can be spliced to remove an element without reassigning:",
+    "type": "TrueFalse",
+    "answer": true
+  }
+]
